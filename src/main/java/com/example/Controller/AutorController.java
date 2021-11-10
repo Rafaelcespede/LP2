@@ -36,7 +36,7 @@ public class AutorController {
 		}
 	}
 	
-	@GetMapping("/listarautor")
+	@GetMapping("/listar")
 	public ResponseEntity<List<Autor>> getAutor(){
 		try {
 			List<Autor> list = new ArrayList<>();
